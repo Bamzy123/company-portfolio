@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './LandingPage.css';
 import imgs from '/e-commerce logo.webp';
 import easy from '/easy buy.webp';
 import active from '/active.jpg'
@@ -26,7 +25,7 @@ const LandingPage = () => {
                     </p>
                     <div className="cta-buttons">
                         <Link to="/signup" className="primary-button">Start Free Trial</Link>
-                        <Link to="/about" className="secondary-button">Learn More</Link>
+                        <Link to="/learnmore" className="secondary-button">Learn More</Link>
                     </div>
                 </div>
 

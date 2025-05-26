@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: solid black 1px; */
+    /* border: solid rgb(235, 231, 231) 1px; */
 }
 
 .landing-container {
     min-height: 100vh;
-    padding: 0 2rem;
-    background: linear-gradient(to right bottom, #ffffff, #f8f9fa);
+    padding: 2rem;
+    background: black;
 }
 
 .landing-nav {
@@ -38,7 +38,7 @@
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: #c0bdbd;
     font-weight: 500;
 }
 
@@ -62,13 +62,8 @@
     margin-bottom: 4rem;
 }
 
- /* .hero-color {
-    background-color: rgb(199, 90, 18);
-} */
-
 .hero-content h1 {
     font-size: 3rem;
-    color: #333;
     margin-bottom: 1rem;
 }
 
@@ -131,22 +126,13 @@
     transition: transform 0.3s ease;
 }
 
-.card-1 { animation-delay: 0.1s; }
-.card-2 { animation-delay: 0.2s; }
-.card-3 { animation-delay: 0.3s; }
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  }
-
 .feature-card h3 {
-    color: #333;
+    color: #e7e5e5;
     margin-bottom: 1rem;
 }
 
 .feature-card p {
-    color: #666;
+    color: #dddada;
 }
 
 @media (max-width: 768px) {
@@ -204,7 +190,7 @@
 
 /* Feature cards animations */
 .feature-card {
-    background: white;
+    background: rgb(36, 36, 36);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

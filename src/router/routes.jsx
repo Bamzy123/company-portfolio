@@ -3,6 +3,7 @@ import Signup from "../components/signup/Signup";
 import LoginPage from "../components/login/LoginPage";
 import Dashboard from "../components/dashboard/Dashboard";
 import LandingPage from "../components/landingpage/LandingPage";
+import LearnMore from "../components/learnmore/learnMore";
 
 const apiEndpoints = {
     login: '/api/auth/login',
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
     {
         path: "/dashboard",
         element: <Dashboard />
+    },
+
+    {
+        path: "/learnmore",
+        element: <LearnMore />
     }
 ]);
 

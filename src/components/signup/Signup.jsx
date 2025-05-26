@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Signup.css';
 import { Link } from 'react-router-dom';
 
 // API endpoints (to be provided by backend developer)
@@ -38,9 +37,9 @@ export default function Signup() {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length) {
-      setErrors(validationErrors);
+    setErrors(validationErrors);
       return;
-    }
+    };
 
     setIsSubmitting(true);
     try {

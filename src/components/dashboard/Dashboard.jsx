@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Dashboard.css';
 import img from '/img.jpg'
 
 import { Chart, LineController, LineElement, PointElement, LinearScale, Title, CategoryScale } from 'chart.js';
@@ -17,9 +16,9 @@ function Dashboard() {
     <div className="dashboard-layout">
       <aside className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
         <div className="sidebar-header">
-          <h2>{collapsed ? 'Dash' : 'Dashboard'}</h2>
+          <h2>{ collapsed ? 'dash' : 'Dashboard' }</h2>
           <button className="toggle-btn" onClick={() => setCollapsed(!collapsed)}>
-            {collapsed ? '→' : '←'}
+            { collapsed ? '→' : '←' }
           </button>
         </div>
         <nav className="menu">
@@ -38,11 +37,11 @@ function Dashboard() {
       <main className="dashboard-main">
         <div className="topbar">
           <div className="greeting">
-            <h1 className="dashboard-title">{active}</h1>
+            <h1 className="dashboard-title">{ active }</h1>
             <p className="dashboard-subtitle">Welcome to your {active.toLowerCase()} panel 👋</p>
           </div>
           <div className="profile-avatar">
-            <img src={img} alt="Profile" />
+            <img src={ img } alt="Profile" />
           </div>
         </div>
 
